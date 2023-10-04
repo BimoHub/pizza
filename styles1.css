@@ -1,0 +1,32 @@
+input 
+    {
+        accent-color: #fcd53f;
+    }
+
+form 
+    {
+        background-image: url(assets/Rough-Blank-Crumpled-Paper-Texture.png);
+        width: 50%;
+        text-align: center;
+        border-radius: 10%;
+        color: #f8312f;
+        padding-left: 0%;
+    }
+
+fieldset
+{
+        border-color: #f8312f;  
+        height: 100%; 
+        border-radius: 10%;
+        text-align: center;
+        padding-left: 20%;
+}
+
+body 
+    {
+        background-image: url(assets/bg.png);
+        background-size: 100%;
+        background-repeat: repeat-y;
+        padding-left: 20%;
+    }
+

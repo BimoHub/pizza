@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<!--PIZZA-->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="Author" content="Bimal Thapa">
+        <title>Bussin Pizza</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <h1 title="🍕">
+            🍕 Bussin Pizza 🍕
+        </h1>
+        <form action="final.html" method="get">
+            <fieldset>
+
+                <legend>
+                    Bussin Pizza
+                </legend>
+
+                <label for "numberOfPizzas">🍕Number of pizzas:</label>
+                <input type="number" id = "numberOfpizzas" name = "numberOfPizzas" min="0">
+                <br><br>
+
+                <label for "numberOfSlices">🍕Number of slices:</label>
+                <input type="number" id = "numberOfSlices" name = "numberOfSlices" min = "0">
+                <br><br>   
+
+                <p>🍕Choose toppings:</p>
+                <input type = "checkbox" id="Pepperoni" name = "toppings">
+                <label for = "toppings">Pepperoni</label>
+                <input type = "checkbox" id="Sausages" name = "toppings">
+                <label for = "toppings">Sausages</label>
+                <input type = "checkbox" id="Olives" name = "toppings">
+                <label for = "toppings">Olives</label>
+                <input type = "checkbox" id="Extra Cheese" name = "toppings">
+                <label for = "toppings">Extra Cheese</label>
+                <br><br>
+
+                <label for "crust">🍕Choose crust type:</label>
+                <select id="crust">
+                  <option value="thin">Thin</option>
+                  <option value="Deep Dish">Deep Dish</option>
+                  <option value="Flatbread">Flatbread</option>
+                </select>
+                <br><br>
+                
+                <label for = "Additional info">🍕Additional info:</label>
+                <input type="text" id="Additional info" name = "Additional info">
+                <br><br>
+
+                <input type ="reset" value="Reset"> 
+
+                <input type = "submit" value="Next">
+
+            </fieldset>
+        </form>
+    </body>

@@ -1,0 +1,38 @@
+input 
+    {
+        accent-color: #fcd53f;
+    }
+
+form 
+    {
+        background-image: url(assets/istockphoto-539372296-612x612.jpg);
+        width: 50%;
+        text-align: center;
+        border-radius: 10%;
+        color: #f8312f;
+        padding-left: 0%;
+    }
+
+h1
+    {
+        color: #fcd53f;
+        text-shadow: 0 0 10px #f8312f; /*horizontal, vertical, blur*/
+        padding-left: 20% ;
+    }   
+
+fieldset
+{
+        border-color: #f8312f;  
+        border-radius: 10%;
+        text-align: center;
+        padding-left: 20%;
+}
+
+body 
+    {
+        background-image: url(assets/bg.png);
+        background-size: 100%;
+        background-repeat: repeat-y; /* repeat image in Y-axis (can be seen when window is seen in part)*/
+        padding-left: 20%;
+    }
+
